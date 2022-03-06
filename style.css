@@ -1,0 +1,149 @@
+/* GLOBAL */
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+i{
+    list-style: none;
+}
+button{
+    list-style: none;
+}
+input{
+    list-style: none;
+    text-decoration: none;
+}
+a,li {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+}
+
+body {
+  background: #080f28;
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen,
+    Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+    font: 400 1rem/1.5625rem sans-serif;
+}
+.head {
+  color: white;
+  position: relative;
+  margin: 0 10.281em;
+  padding: 0 1.5em;
+}
+
+/* LOGO */
+.logo {
+  margin: 0 3em 0 0;
+  padding: 1.5em 0;
+}
+/* NAVEGACION */
+.main-menu {
+  position: absolute;
+  top: 2.6em;
+  left: 20em;
+}
+
+.main-menu div,
+li {
+  display: inline-block;
+}
+.main-menu li {
+  padding: 0 3em 0 0 ;
+  font-size: .95em;
+}
+
+/* SESION USUARIO */
+.controls {
+  position: absolute;
+  left: 70em;
+  top: 2em;
+}
+.controls div {
+  display: inline-block;
+}
+
+#arrow-1{
+   position: absolute;
+   top: .4em;
+   left: 9.9em;
+    color: #007aff;
+}
+
+#arrow-2{
+    position: absolute;
+    top: .4em;
+    left: 17.2em;
+    color: #007aff;
+}
+#arrow-3{
+    position: absolute;
+   top: .4em;
+   left: 23.3em;
+   color: #007aff;
+}
+/* SEARCH */
+.search{
+    background: rgba(8,15,40,.5);
+    border: 1px solid rgba(61,79,145,.5);
+    border-radius: 2em;
+    padding: 0.25em 1em;
+    
+}
+.search input{
+    background: none;
+    outline: 0;
+    border: none;
+    color: white;
+    width: 9.37em;
+    height: 1.87em;
+    transition: .4s;
+}
+
+.search input::placeholder{
+    color: #8da0bc;
+    font-size: 1em;
+}
+
+.search input:focus{
+    transform: translateX(-10em);
+    transition: .5s;
+    
+}
+
+
+
+.buscador-main{
+    background-color: transparent;
+    border: none;
+}
+.buscador{
+    background-color: transparent;
+    border: none;
+    color: #0076f9;
+}
+.buscador:hover{
+    cursor: pointer;
+}
+
+/* USER */
+.user-sub{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: .9em;
+    margin-left: 1em;
+}
+
+.user-registro{
+    background: #0076f9;
+    border-radius: 2em;
+    padding: 1em;
+    width: 6em;
+    
+}
+
+.user-sub:hover{
+    cursor: pointer;
+}
